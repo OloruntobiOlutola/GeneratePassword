@@ -1,0 +1,11 @@
+{
+  "name": "generatepassword",
+  "version": "1.0.0",
+  "description": "This package generates a random password between the range of two numbers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
