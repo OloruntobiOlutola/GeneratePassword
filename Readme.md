@@ -14,7 +14,7 @@
 
     Copy and paste the following code on your js file to log to the console the generated password
 
-    ```JavaScript
+    ```javascript
     const generatepasswordbetween = require("generatepasswordbetween")
 
     let password = generatepasswordbetween(8, 16)
