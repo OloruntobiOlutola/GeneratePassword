@@ -5,8 +5,10 @@ const genNumber = (num2) => {
 
 // Function for generating the password
 const generatePassword = (length) => {
-  const characters =
-    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%&";
+  let characters = "";
+  for (let i = 33; i < 127; i++) {
+    characters += String.fromCharCode(i);
+  }
   let result = "";
   const charactersLength = characters.length;
   for (let i = 0; i < length; i++) {
