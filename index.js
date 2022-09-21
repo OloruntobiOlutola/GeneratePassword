@@ -20,7 +20,6 @@ const createPassword = (num1, num2) => {
   while (number < num1) {
     number = genNumber(num2);
   }
-  console.log(number);
   return generatePassword(number);
 };
 
