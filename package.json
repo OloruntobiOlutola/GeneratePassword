@@ -1,6 +1,6 @@
 {
   "name": "generatepasswordbetween",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package generates a random password between the range of two numbers",
   "main": "index.js",
   "keywords": [
